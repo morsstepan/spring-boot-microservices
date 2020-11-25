@@ -58,5 +58,5 @@ Eureka Server также известен как Discovery Server.
 6. Запустить `currency-converter` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу http://localhost:8100/
 7. Запустить `eureka-naming-server` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу http://localhost:8761/
 8. Приступить к работе на http://localhost:8080/
-
+9. Для выключения приложения необходимо нажать комбинацию клавиш `Ctrl+C`
 
