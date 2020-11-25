@@ -1,0 +1,12 @@
+[submodule "employees-management"]
+	path = employees-management
+	url = https://github.com/morsstepan/employees-management.git
+[submodule "currency-exchange"]
+	path = currency-exchange
+	url = https://github.com/morsstepan/currency-exchange.git
+[submodule "currency-converter"]
+	path = currency-converter
+	url = https://github.com/morsstepan/currency-converter.git
+[submodule "eureka-naming-server"]
+	path = eureka-naming-server
+	url = https://github.com/morsstepan/eureka-naming-server.git
