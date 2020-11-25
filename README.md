@@ -38,7 +38,7 @@
 В качестве базы данных используется Н2. Данные для БД хранятся в файле `resources/data.sql`. 
 
 ## API
-- http://localhost:8100/currency-converter/from/GBP/to/INR/quantity/500
+- http://localhost:8100/currency-converter-feign/from/GBP/to/RUB/quantity/500
 
 # Проект eureka-naming-server
 
@@ -53,10 +53,10 @@ Eureka Server также известен как Discovery Server.
 1. Склонировать репозиторий и его модули к себе командой `git clone --recursive https://github.com/morsstepan/spring-boot-microservices.git`
 2. Убедиться, что используется Java 11 - `java -version`, `javac -version`
 3. Убедиться, что Maven установлен и узнать используемую версию Java - `mvn -version` (если версия Java отличается от версии из шага 2, то необходимо настроить переменную окружения `JAVA_HOME`)
-4. Запустить `employees-management` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу localhost:8080/
-5. Запустить `currency-exchange` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу localhost:8000/
-6. Запустить `currency-converter` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу localhost:8100/
-7. Запустить `eureka-naming-server` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу localhost:8761/
-8. Приступить к работе на localhost:8080/
+4. Запустить `employees-management` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу http://localhost:8080/
+5. Запустить `currency-exchange` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу http://localhost:8000/
+6. Запустить `currency-converter` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу http://localhost:8100/
+7. Запустить `eureka-naming-server` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу http://localhost:8761/
+8. Приступить к работе на http://localhost:8080/
 
 
