@@ -42,11 +42,11 @@
 
 # Проект eureka-naming-server
 
-![alt text](https://i.imgur.com/H5JNOhP.jpeg)
-
 Приложение `eureka-naming-server` содержит информацию обо всех клиентских сервисных приложениях.
 Каждый микросервис регистрируется на сервере Eureka, и Eureka знает все клиентские приложения, работающие на каждом порту и IP-адресе.
 Eureka Server также известен как Discovery Server.
+
+![alt text](https://i.imgur.com/H5JNOhP.jpeg)
 
 # Инструкция по запуску
 
