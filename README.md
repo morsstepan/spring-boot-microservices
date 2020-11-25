@@ -50,7 +50,7 @@ Eureka Server также известен как Discovery Server.
 
 # Инструкция по запуску
 
-1. Склонировать репозиторий и его модули к себе командой `git clone --recursive`
+1. Склонировать репозиторий и его модули к себе командой `git clone --recursive https://github.com/morsstepan/spring-boot-microservices.git`
 2. Убедиться, что используется Java 11 - `java -version`, `javac -version`
 3. Убедиться, что Maven установлен и узнать используемую версию Java - `mvn -version` (если версия Java отличается от версии из шага 2, то необходимо настроить переменную окружения `JAVA_HOME`)
 4. Запустить `employees-management` командой `mvn spring-boot:run` из корня проекта. Приложение будет доступно по адресу localhost:8080/
