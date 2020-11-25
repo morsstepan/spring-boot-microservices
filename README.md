@@ -17,6 +17,11 @@
 Реализация CRUD-операций с помощью Spring Boot.
 В качестве базы данных используется Н2. Данные для БД хранятся в файле `resources/data.sql`. 
 
+Скриншот приложения:
+
+![alt text](https://i.imgur.com/bgCUu2f.jpeg)
+
+
 # Проект currency-exchange
 
 Сервис, возвращающий валютный коэффициаент, является `поставщиком услуг` (Service Provider). Реализован с помощью Spring Boot.
@@ -24,6 +29,8 @@
 
 ## API
 - http://localhost:8000/currency-exchange/from/GBP/to/RUB
+
+![alt text](https://i.imgur.com/RGfaeNg.jpeg)
 
 # Проект currency-converter
 
@@ -34,6 +41,8 @@
 - http://localhost:8100/currency-converter/from/GBP/to/INR/quantity/500
 
 # Проект eureka-naming-server
+
+![alt text](https://i.imgur.com/H5JNOhP.jpeg)
 
 Приложение `eureka-naming-server` содержит информацию обо всех клиентских сервисных приложениях.
 Каждый микросервис регистрируется на сервере Eureka, и Eureka знает все клиентские приложения, работающие на каждом порту и IP-адресе.
